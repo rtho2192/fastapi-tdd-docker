@@ -1,0 +1,15 @@
+
+  RuntimeError
+
+  Poetry could not find a pyproject.toml file in /home/ryan/learning/testdriven/fastapi-tdd-docker or its parents
+
+  at ~/.asdf/installs/poetry/1.1.12/venv/lib/python3.10/site-packages/poetry/core/factory.py:369 in locate
+      365│             if poetry_file.exists():
+      366│                 return poetry_file
+      367│ 
+      368│         else:
+    → 369│             raise RuntimeError(
+      370│                 "Poetry could not find a pyproject.toml file in {} or its parents".format(
+      371│                     cwd
+      372│                 )
+      373│             )
